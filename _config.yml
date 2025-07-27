@@ -1,0 +1,52 @@
+title: Omeans Team
+description: Professional Portfolio & Development Services
+author: Aris Hadisopiyan
+email: aris.hadisopiyan@gmail.com
+url: "https://omeans-team.github.io"
+baseurl: ""
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Social media
+social_media:
+  - name: GitHub
+    url: https://github.com/omeans-team
+  - name: LinkedIn
+    url: https://linkedin.com/in/arishadisopiyan
+  - name: Instagram
+    url: https://instagram.com/aya.erisu
+  - name: YouTube
+    url: https://youtube.com/channel/UCc-wxj8LR7n83Y_-6fGwnKA 
