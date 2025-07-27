@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Omegans Team 3D Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based 3D portfolio application showcasing creative work with Three.js and modern web technologies.
 
 ## Demo
 [![Watch Video](https://img.shields.io/badge/Watch-Video-red?style=for-the-badge)](https://www.youtube.com/watch?v=13f5Zp5mjb8)
@@ -14,6 +14,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
     <img src="gh-contents/4.png" width="50%"></img>
     <img src="gh-contents/5.png" width="50%"></img>
 </div>
+
+## Features
+
+- 3D interactive portfolio using Three.js
+- Modern React 18 with hooks
+- GSAP animations for smooth transitions
+- Responsive design
+- Performance optimized
 
 ## Available Scripts
 
@@ -40,8 +48,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
@@ -51,6 +57,14 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Technologies Used
+
+- React 18
+- Three.js
+- GSAP (GreenSock Animation Platform)
+- dat.GUI for controls
+- Create React App
 
 ## Learn More
 
